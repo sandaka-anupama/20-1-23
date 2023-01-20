@@ -1,0 +1,10 @@
+s=input()
+for i in s:
+    if ((i=='a') or (i=='e') or (i=='i') or (i=='o') or (i=='u')):
+        i=i.replace('a or e or i or o or u','')
+    else:
+        print(i,end='')
+        
+output:
+avnfeui
+vnf
